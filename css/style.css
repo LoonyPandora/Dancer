@@ -1,0 +1,139 @@
+/* Basic Styles
+================================================== */
+body {
+  background-color: #dfdfdf;
+  background-image: url('../img/bg_tile.gif');
+  color: #444;
+}
+
+h1 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 36px;
+  line-height: 55px;
+  margin-bottom: 15px;
+  color: #666;
+  text-shadow: 1px 1px 0px #fff;
+}
+
+h2 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 40px;
+  color: #444;
+  margin-left: -2px;
+  margin-bottom: 20px;
+}
+
+#header {
+  height: 140px;
+  padding: 10px 0;
+  margin: 0 0 20px 0;
+  background-color: #709DBE;
+}
+
+#header img {
+  display: block;
+  margin: 0 auto 0 auto;
+  height: 100%;
+}
+
+
+#container {
+  width: 700px;
+  margin: 0 auto 0 auto;
+}
+
+
+#navigation {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  margin: 0 0 5px 0;
+  list-style: none;
+  height: 80px;
+  text-align: center;
+
+}
+
+#navigation li {
+  float: left;
+  width: 100px;
+  height: 60px;
+  display: block;
+  margin: 0 0 0 20px;
+  
+}
+
+#navigation li:first-child {
+  margin: 0;
+}
+
+#navigation li img {
+  display: block;
+  margin: 0 auto -5px auto;
+}
+
+#navigation li a {
+  text-decoration: none;
+  display: block;
+  opacity: 0.5;
+}
+
+
+#navigation li a.active {
+  opacity: 1 !important;
+}
+
+#documentation img {
+  height: 35px;
+  margin: 5px auto 3px auto !important;
+}
+
+
+#content {
+  margin: 0;
+  display: block;
+  min-height: 250px;
+  background-color: #fff;
+  padding: 10px 20px 1px 20px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 -5px 10px rgba(0, 0, 0, 0.1) inset;
+     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 -5px 10px rgba(0, 0, 0, 0.1) inset;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 -5px 10px rgba(0, 0, 0, 0.1) inset;
+
+}
+
+#content > li        { list-style: none; display: none;  }
+#content > li.active { list-style: none; display: block; }
+
+
+
+
+
+
+
+
+/* CSS Arrows
+================================================== */
+
+.arrow {
+  width:  0;
+  height: 0;
+  z-index: 99;
+  position: absolute;
+  border-left:   15px solid transparent;
+  border-right:  15px solid transparent;
+  border-bottom: 15px solid #fff;
+}
+
+.arrow.overview      { margin: -25px 0 0 15px; }
+.arrow.quickstart    { margin: -25px 0 0 135px; }
+.arrow.documentation { margin: -25px 0 0 255px; }
+.arrow.contribute    { margin: -25px 0 0 375px; }
+.arrow.dancefloor    { margin: -25px 0 0 495px; }
+.arrow.download      { margin: -25px 0 0 615px; }
+
+
+
+
