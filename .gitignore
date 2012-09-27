@@ -12,7 +12,6 @@ MYMETA.yml
 
 
 # From: https://github.com/github/gitignore/blob/master/Global/Linux.gitignore
-.*
 !.gitignore
 *~
 *.sw[a-p]
