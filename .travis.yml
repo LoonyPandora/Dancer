@@ -7,7 +7,8 @@ perl:
     - "5.10"
 
 install:
-    - perl Makefile.PL
+    - cpanm HTTP::Server::Simple::PSGI --quiet --notest
 
 script:
+    - perl Makefile.PL
     - make test
