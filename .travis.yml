@@ -7,7 +7,7 @@ perl:
     - "5.10"
 
 install:
-    - cpanm Template XML::Simple --quiet --notest
+    - cpanm HTTP::Server::Simple::PSGI Template XML::Simple --quiet --notest
 
 script:
     - perl Makefile.PL
