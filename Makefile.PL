@@ -36,7 +36,8 @@ WriteMakefile1(
     },
 
     BUILD_REQUIRES => {
-        'Test::More'              => '0.94',
+        'Test::More'                 => '0.94',
+        'HTTP::Server::Simple::PSGI' => '0.11',
     },
 
     PREREQ_PM => {
