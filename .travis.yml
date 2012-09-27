@@ -11,4 +11,4 @@ install:
 
 script:
     - perl Makefile.PL
-    - make author_test
+    - make test
